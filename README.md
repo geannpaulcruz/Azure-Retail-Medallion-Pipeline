@@ -6,7 +6,9 @@ Solución de ingeniería de datos diseñada para la optimización de reportes re
 Arquitectura del Sistema
 ![Diagrama de Arquitectura](Architecture/arquitectura_proyecto.png)
 
+
 Tecnologías y Herramientas
+
 Azure Data Factory: Orquestación y extracción de datos desde GitHub (JSON) y FTP (CSV).
 
 Azure Data Lake Storage Gen2: Repositorio central organizado en capas Bronze, Silver y Gold.
@@ -16,6 +18,7 @@ Azure Databricks: Procesamiento distribuido utilizando Spark SQL y PySpark para 
 Power BI: Visualización de KPIs críticos y análisis de tendencias de ventas.
 
 Resultados del Proyecto
+
 Orquestación en Data Factory
 ![Orquestación ADF](Images/adf_pipeline_success.png)
 
